@@ -31,6 +31,8 @@ class MyFirstExtension(inkex.EffectExtension):
 
     def effect(self):
         self.msg("This is an empty extension, please see tutorials for more details.")
+        for elem in self.svg.get_selected():
+            elem.style['fill'] = 'red'
 
 if __name__ == '__main__':
     MyFirstExtension().run()
