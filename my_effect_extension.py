@@ -33,4 +33,4 @@ class MyFirstExtension(inkex.EffectExtension):
         self.msg("This is an empty extension, please see tutorials for more details.")
 
 if __name__ == '__main__':
-    UnnamedEffectExtension().run()
+    MyFirstExtension().run()
