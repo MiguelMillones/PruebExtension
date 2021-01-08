@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <name>My Effect</name>
+  <name>My First Extension </name>
   <id>org.inkscape.template.effect</id>
   <!--
   <param name="param_str" type="string" gui-text="Your name:"></param>
