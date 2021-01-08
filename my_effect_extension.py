@@ -23,7 +23,7 @@ Description of this extension
 
 import inkex
 
-class UnnamedEffectExtension(inkex.EffectExtension):
+class MyFirstExtension(inkex.EffectExtension):
     """Please rename this class, don't keep it unnamed"""
     def add_arguments(self, pars):
         pars.add_argument("--my_option", type=inkex.Boolean,\
