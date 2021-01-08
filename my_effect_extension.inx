@@ -28,7 +28,7 @@ This testing help text can be changed to help users of the extension.
   <effect>
     <!--object-type>path</object-type-->
     <effects-menu>
-      <submenu name="Extension Template"/>
+      <submenu name="Effect"/>
     </effects-menu>
   </effect>
   <script>
